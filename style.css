@@ -611,3 +611,105 @@ header {
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
   filter: brightness(1.08);
 }
+
+/* RESPONSIVE HP */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 14px 16px;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .logo img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .logo-text h1 {
+    font-size: 19px;
+  }
+
+  .logo-text p {
+    font-size: 11px;
+  }
+
+  .nav-menu {
+    width: 100%;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-menu a {
+    font-size: 14px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 150px);
+    padding: 40px 18px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .section {
+    padding: 60px 18px;
+  }
+
+  .section h2 {
+    font-size: 30px;
+  }
+
+  .tentang-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tentang-foto,
+  .tentang-teks {
+    width: 100%;
+  }
+
+  .tentang-foto img {
+    height: 260px;
+  }
+
+  .tentang-teks p,
+  .visi-card p,
+  .program-card p,
+  .kegiatan-card p,
+  .sejarah-text p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .visi-card,
+  .program-card,
+  .kegiatan-card {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .kegiatan-container {
+    flex-wrap: wrap;
+  }
+
+  .sejarah-gallery img {
+    width: 100%;
+    height: 220px;
+  }
+
+  .contact-section p {
+    font-size: 15px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+}
